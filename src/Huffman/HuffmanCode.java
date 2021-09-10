@@ -1,8 +1,5 @@
-package com.company;
-
 import java.nio.charset.Charset;
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.Hashtable;
 import java.util.PriorityQueue;
 import java.util.Scanner;

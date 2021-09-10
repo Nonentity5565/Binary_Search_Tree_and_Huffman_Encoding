@@ -1,5 +1,3 @@
-package com.company;
-
 public class CharacterNode extends Node {
     private char character;
 
