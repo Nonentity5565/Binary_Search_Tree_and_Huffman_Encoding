@@ -134,15 +134,15 @@ public class BST {
             }
             else if (currentRoot.right == null) {
                 System.out.println("Replacing " + key + " with left child " + currentRoot.left.key);
-                Node yeet = currentRoot;
+                // Node yeet = currentRoot;
                 currentRoot = currentRoot.left;
-                yeet = null;
+                // yeet = null;
             }
             else if (currentRoot.left == null) {
                 System.out.println("Replacing " + key + " with right child " + currentRoot.right.key);
-                Node yeet = currentRoot;
+                // Node yeet = currentRoot;
                 currentRoot = currentRoot.right;
-                yeet = null;
+                // yeet = null;
             }
             else {
                 System.out.println(currentRoot.key + " has two children!");
@@ -211,7 +211,7 @@ public class BST {
             tempArray = temp.split(" ");
             try {
                 for (String item: tempArray) {
-                    Double transformed = Double.parseDouble(item);
+                    Double.parseDouble(item);
                 }
                 break;
             }
@@ -221,16 +221,17 @@ public class BST {
         }
         for (String item: tempArray) {
             Double transformed = Double.parseDouble(item);
-            if (type == 0) {
-                insert(transformed);
+            switch (type) {
+                case 0:
+                    insert(transformed);
+                    break;
+                case 1:
+                    delete(transformed);
+                    break;
+                case 2:
+                    search(transformed);
+                    break;
             }
-            else if (type == 1) {
-                delete(transformed);
-            }
-            else if (type == 2) {
-                search(transformed);
-            }
-            System.out.println();
         }
     }
 
