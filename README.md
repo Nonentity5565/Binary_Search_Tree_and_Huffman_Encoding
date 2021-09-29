@@ -5,6 +5,7 @@ _Adapted from the included [report](https://github.com/PScoriae/BST_Huffman/blob
 In teams of two, students of Data Structures and Algorithms CSC2103 in the April 2021 semester at Sunway University were tasked with a final project to demonstrate their knowledge in two of seven algorithms, namely:
 - Shortest Pathfinding
 - Hashing
+- Binary Search Tree
 - Red-Black Tree
 - Huffman Coding
 - String Matching (except naïve)
