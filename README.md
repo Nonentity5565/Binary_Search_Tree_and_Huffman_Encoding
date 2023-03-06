@@ -30,4 +30,4 @@ Both implementations are CLI programs and visualise the algorithms for the user'
 
 # Further Reading
 
-For further reading and a more in-depth write-up on this project, please download and view the included [report](https://github.com/PScoriae/BST_Huffman/blob/master/report.pdf).
+For further reading and a more in-depth write-up on this project, please download and view the included [report](https://github.com/PScoriae/BST_Huffman/blob/main/report.pdf).
